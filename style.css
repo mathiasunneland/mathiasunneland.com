@@ -1,11 +1,17 @@
 h1 {
-    color: red;
+    color: black;
     font-family: verdana;
     font-size: 80px;
 }
 
 p {
-    color: blue;
+    color: green;
     font-family: verdana;
     font-size: 20px;
+}
+
+a {
+    color: blue;
+    font-family: verdana;
+    font-size: 15px;
 }
