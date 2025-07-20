@@ -28,7 +28,8 @@ a {
     font-size: 15px;
     text-align: center;
     border: 2px solid blue;
-    padding: 3px;
+    padding: 5px;
+    margin: 10px;
 }
 
 .projects {
