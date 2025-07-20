@@ -1,17 +1,24 @@
 body {
-    background-color: white ;
+    background-color: white;
 }
 
 h1 {
-    color: black;
     font-family: montserrat;
     font-size: 80px;
+    text-align: center;
+}
+
+h2 {
+    font-family: montserrat;
+    font-size: 40px;
+    text-align: center;
 }
 
 p {
     color: green;
     font-family: verdana;
     font-size: 20px;
+    text-align: center;
 }
 
 a {
@@ -19,6 +26,7 @@ a {
     color: white;
     font-family: verdana;
     font-size: 15px;
-    border: 2px solid black;
+    text-align: center;
+    border: 2px solid blue;
     padding: 3px;
 }
