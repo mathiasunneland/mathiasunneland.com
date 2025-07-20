@@ -1,6 +1,10 @@
+body {
+    background-color: white ;
+}
+
 h1 {
     color: black;
-    font-family: verdana;
+    font-family: montserrat;
     font-size: 80px;
 }
 
@@ -11,7 +15,10 @@ p {
 }
 
 a {
-    color: blue;
+    background-color: black;
+    color: white;
     font-family: verdana;
     font-size: 15px;
+    border: 2px solid black;
+    padding: 3px;
 }
