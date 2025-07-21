@@ -27,3 +27,22 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:latest
+
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+
+      - name: Deploy to server
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.HOST_IP }}
+          username: ${{ secrets.HOST_USERNAME }}
+          key: ${{ secrets.HOST_PRIVATE_KEY }}
+          script: |
+            cd mathiasunneland.com
+            docker compose stop
+            docker compose rm -f
+            docker compose pull
+            docker compose up -d
