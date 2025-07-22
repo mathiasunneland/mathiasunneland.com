@@ -1,6 +1,5 @@
 body {
     background-image: linear-gradient(to right, white, red, blue, green, orange, yellow, lightcoral, black);
-
 }
 
 h1 {
@@ -37,4 +36,9 @@ a {
 
 .projects {
     text-align: center;
+}
+
+a:hover {
+    font-size: 40px;
+    border: 10px solid orange;
 }
