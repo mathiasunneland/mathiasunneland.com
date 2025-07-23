@@ -49,43 +49,52 @@
     }
 }
 
-.main {
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+main .text-container .main {
     text-align: center;
 }
 
-.main h1 {
+main .text-container .main h1 {
     color: green;
     font-family: sans-serif;
     font-size: 80px;
     text-align: center;
 }
 
-.main h2 {
+main .text-container .main h2 {
     font-family: sans-serif;
     font-size: 40px;
     text-align: center;
 }
 
-.main p {
+main .text-container .main p {
     color: green;
     font-family: sans-serif;
     font-size: 20px;
     text-align: center;
 }
 
-.projects {
-    text-align: center;
+main .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.projects a {
-    background-color: black;
-    color: white;
-    font-family: sans-serif;
-    font-size: 15px;
-    text-align: center;
-    border: 2px solid blue;
-    padding: 5px;
-    margin: 10px;
+main .projects-container .project {
+    flex: 1 0 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+main .projects-container .project:hover {
+    transform: scale(1.05);
 }
 
 .footer {
