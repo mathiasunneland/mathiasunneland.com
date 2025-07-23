@@ -1,6 +1,4 @@
 # mathiasunneland.com
----
-## Description
 
 This is Mathias Unnelands portfolio website
 
@@ -14,6 +12,8 @@ git clone https://github.com/mathiasunneland/mathiasunneland.git
 cd mathiasunneland
 ```
 
+---
+
 ## Usage
 
-- Open a html file on your browser in localhost
+- Open index.html on localhost in a browser
