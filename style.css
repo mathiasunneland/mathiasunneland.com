@@ -78,6 +78,11 @@ main .text-container .main p {
     text-align: center;
 }
 
+main .text-container .main img {
+    width: 30%;
+    height: 30%;
+}
+
 main .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -101,19 +106,22 @@ main .socials-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 main .socials-container .social {
-    flex: 1 0 300px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
 main .socials-container .social:hover {
     transform: scale(1.05);
+}
+
+main .socials-container .social a img {
+    width: 100px;
+    height: 100px;
+    display: block;
 }
 
 .footer {

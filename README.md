@@ -16,4 +16,4 @@ cd mathiasunneland
 
 ## Usage
 
-- Open index.html on localhost in a browser
+- Open the index.html file on localhost in a browser
