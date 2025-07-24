@@ -100,6 +100,7 @@ main .projects-container .project {
 
 main .projects-container .project:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 main .socials-container {
@@ -133,3 +134,4 @@ main .socials-container .social a img {
     color: white;
     text-align: center;
 }
+
