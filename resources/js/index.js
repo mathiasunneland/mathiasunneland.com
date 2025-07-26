@@ -10,7 +10,3 @@ function myNavbar() {
 function openLink(url, target = '_self') {
     window.open(url, target);
 }
-
-function hei() {
-    console.log("hei");
-}
