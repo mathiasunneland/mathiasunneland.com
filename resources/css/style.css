@@ -144,6 +144,10 @@ main .projects-container .project {
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 main .projects-container .project:hover {

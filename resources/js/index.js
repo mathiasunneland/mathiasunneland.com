@@ -6,7 +6,3 @@ function myNavbar() {
         x.className = "navbar";
     }
 }
-
-function openLink(url, target = '_self') {
-    window.open(url, target);
-}
