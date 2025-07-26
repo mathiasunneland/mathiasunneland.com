@@ -59,7 +59,7 @@ main .text-container .text {
 main .text-container .text h1 {
     color: #ECF0F1;
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -91,7 +91,7 @@ main .text-container .socials {
 main .text-container .socials h2 {
     color: #ECF0F1;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 @media screen and (max-width: 600px) {
@@ -171,7 +171,7 @@ main .text-container .about .about-text h2 {
 main .text-container .about .about-text p {
     color: #ECF0F1;
     font-family: sans-serif;
-    font-size: 17px;
+    font-size: 23px;
     text-align: left;
 }
 
