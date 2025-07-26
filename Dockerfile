@@ -1,7 +1,6 @@
 FROM nginx:latest
 COPY index.html /usr/share/nginx/html/
 COPY about.html /usr/share/nginx/html/
-COPY contact.html /usr/share/nginx/html/
 COPY resources/css/style.css /usr/share/nginx/html/resources/css/style.css
 COPY resources/js/index.js /usr/share/nginx/html/resources/js/index.js
 COPY resources/images/mathiasunneland.jpeg /usr/share/nginx/html/resources/images/mathiasunneland.jpeg

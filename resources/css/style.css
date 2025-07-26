@@ -54,33 +54,74 @@ main {
     margin: 20px auto;
 }
 
-main .text-container .main {
+main .text-container .text {
     text-align: center;
 }
 
-main .text-container .main h1 {
+main .text-container .text h1 {
     color: black;
     font-family: sans-serif;
     font-size: 50px;
     text-align: center;
 }
 
-main .text-container .main h2 {
-    font-family: sans-serif;
-    font-size: 30px;
-    text-align: center;
+main .text-container .about {
+    display: flex;
+    gap: 20px;
 }
 
-main .text-container .main p {
+main .text-container .about img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+main .text-container .about-text {
+    display: flex;
+    flex-direction: column;
+}
+
+main .text-container .about-text h2 {
     color: black;
     font-family: sans-serif;
-    font-size: 20px;
-    text-align: center;
+    font-size: 30px;
+    text-align: left;
 }
 
-main .text-container .main img {
-    width: 30%;
-    height: 30%;
+main .text-container .about-text p {
+    color: black;
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: left;
+}
+
+main .text-container .socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+main .text-container .socials h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+main .text-container .socials .social {
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+main .text-container .socials .social:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main .text-container .socials .social img {
+    width: 60px;
+    height: 60px;
+    display: block;
 }
 
 main .projects-container {
@@ -101,29 +142,6 @@ main .projects-container .project {
 main .projects-container .project:hover {
     transform: scale(1.05);
     cursor: pointer;
-}
-
-main .socials-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-main .socials-container .social {
-    padding: 20px;
-    transition: transform 0.3s ease-in-out;
-}
-
-main .socials-container .social:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-}
-
-main .socials-container .social a img {
-    width: 100px;
-    height: 100px;
-    display: block;
 }
 
 .footer {
