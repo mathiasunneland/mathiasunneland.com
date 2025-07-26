@@ -173,7 +173,7 @@ main .projects-container .project p {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: grey;
-    color: white;
+    background-color: #2C3E50;
+    color: #ECF0F1;
     text-align: center;
 }
