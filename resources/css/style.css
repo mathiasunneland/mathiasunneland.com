@@ -15,12 +15,12 @@
 }
 
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: #bbb;
     color: black;
 }
 
 .navbar a.active {
-    background-color: #04AA6D;
+    background-color: #037F5E;
     color: white;
 }
 
@@ -192,7 +192,7 @@ main .projects-container {
 
 main .projects-container .project {
     flex: 1 0 300px;
-    background-color: #7F8C8D;
+    background-color: #2C3E50;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 10px;
@@ -208,11 +208,11 @@ main .projects-container .project:hover {
 }
 
 main .projects-container .project h2 {
-    color: #ECF0F1;
+    color: white;
 }
 
 main .projects-container .project p {
-    color: #ECF0F1;
+    color: white;
 }
 
 .footer {
