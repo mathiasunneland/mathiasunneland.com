@@ -195,6 +195,7 @@ main .projects-container .project {
     background-color: #2C3E50;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    margin-top: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
     display: block;
