@@ -19,4 +19,4 @@ jobs:
           script: |
             cd mathiasunneland.com
             git pull
-            sudo cp -r resources/* /usr/share/nginx/html
+            sudo cp -r resources/* /var/www/html
