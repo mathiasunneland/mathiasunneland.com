@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="This is Mathias Unnelands personal portfolio website."/>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
     <title>Home</title>
 </head>
 <body>
@@ -52,10 +53,12 @@
 </main>
 
 <div class="footer">
-    <p>Mathias Unneland @ 2025</p>
+    <p>Mathias Unneland &copy; <span id="year"></span></p>
 </div>
 
-<script src="js/index.js"></script>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
