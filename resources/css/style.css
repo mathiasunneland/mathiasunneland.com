@@ -6,8 +6,16 @@
     align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+    .navbar {
+        justify-content: center;
+    }
+    .navbar.responsive {
+        flex-direction: column;
+    }
+}
+
 .navbar a {
-    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -34,7 +42,14 @@
     color: #f2f2f2;
     padding: 14px 16px;
     cursor: pointer;
-    float: right;
+    position: absolute;
+    right: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-toggle {
+        display: block;
+    }
 }
 
 body {
